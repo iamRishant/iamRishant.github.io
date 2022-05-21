@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Startup</title>
+  <!-- what are these meta tags???:-ye jo viewport wala hai ye btata hai ki ye page mobile prr chlna chhaiye jaise ki scroll and zoom in zoom out touch ye sbb suport krne k liye -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Your own stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style8.css">
+</head>
+
+<body>
+  <div class="container d-flex align-items-center h-100">
+    <!-- 1.)ye sbb predefined class hai bootstrap ka isse sb ek container me aajeaga -->
+    <!--4.)d-flex ka mtlb flex box enable kiye and flex box used to place or arrange things vertically-->
+    <!--5.)and since container jo hai bss ek box ki trh hota hai to usme align krenge to center me nahi aaega pehle box ka height ka badha kar 100% krna hoga(h-100 bootstrap predefined class) taaki container ka height pura page cover kare then we will use bootstrap pre defined class align-item-center-->
+    <div class="row">
+      <!--2.)isse sbb ek row me aajaega-->
+      <header class="text-center col-12">
+        <!--3.)ye text center bhi pre defined bootstrap ka hai par sirf text center krne se beech me nahi jaa rha tha ye log pura space nhi le rha tha and as we know bootstrap 12 grid system use krta hai to hmko isko pura 12 unit dena hoga tab center me jaega-->
+        <h1><strong>THE BIGGEST STARUP EVENT OF THE YEAR</strong></h1>
+      </header>
+      <!--6.)now we need space between text and button so we will create a div with class buffer jisko hmlog define krenge css me jo dono ke beech space dega-->
+      <div class="buffer col-12"></div>
+      <section class="text-center col-12">
+        <!--3.)ab ye pura 12 unit(ek line) space khaega and uska center me aaega-->
+        <hr>
+        <button class="btn btn-primary btn-xl">Find Out More</button>
+        <!-- 2.)ye button ke andr ka classs bootstrap se nikale hai wha jaake button search kro to mil jaega  and btn-xl bootsstrap ka class nhi hai wo abhi bnae hai button ko css me customize krne ke liye jo ki size badha rha hai button ka-->
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
